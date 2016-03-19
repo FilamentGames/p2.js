@@ -1,6 +1,6 @@
 {
   "name": "p2",
-  "version": "0.7.1",
+  "version": "0.7.1-tvo",
   "description": "A JavaScript 2D physics engine.",
   "author": "Stefan Hedman <schteppe@gmail.com> (http://steffe.se)",
   "keywords": [
@@ -14,6 +14,9 @@
   "engines": {
     "node": "*"
   },
+  "publishConfig": {
+    "registry": "http://registry.filamentgames.com"
+  },  
   "repository": {
     "type": "git",
     "url": "https://github.com/schteppe/p2.js.git"
